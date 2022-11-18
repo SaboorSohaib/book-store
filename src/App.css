@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  margin-left: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-title {
+  color: rgb(25, 173, 223);
+}
+
+.link {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.status-btn {
+  padding: 10px;
+  background-color: rgb(25, 173, 223);
+  border-radius: 10px;
+  border: none;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.form-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  height: 70vh;
+}
+
+.new-book-title {
+  margin-left: 11px;
+}
+
+input {
+  padding: 5px;
+  width: 500px;
+  margin: 10px;
+}
+
+.book-btn {
+  padding: 7px;
+  width: 150px;
+  background-color: rgb(25, 173, 223);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: none;
+  cursor: pointer;
 }
