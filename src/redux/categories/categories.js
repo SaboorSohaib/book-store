@@ -1,6 +1,6 @@
 const initialState = [];
 
-const CHECK_STATUS = 'book-store/categories/CHECKSTATUS';
+const CHECK_STATUS = 'book-store/redux/categories/CHECKSTATUS';
 
 export default function CategoriesReducer(state = initialState, action = {}) {
   switch (action.type) {
