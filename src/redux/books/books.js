@@ -1,7 +1,7 @@
 const initialState = [];
 
-const ADD_BOOK = 'book-store/books/ADDBOOK';
-const REMOVE_BOOK = 'book-store/books/REMOVEBOOK';
+const ADD_BOOK = 'book-store/redux/books/ADD_BOOK';
+const REMOVE_BOOK = 'book-store/redux/books/REMOVE_BOOK';
 
 export default function books(state = initialState, action = {}) {
   switch (action.type) {
