@@ -1,17 +1,17 @@
 const initialState = [];
 
-const ADDBOOK = 'book-store/books/ADDBOOK';
-const REMOVEBOOK = 'book-store/books/REMOVEBOOK';
+const ADD_BOOK = 'book-store/books/ADDBOOK';
+const REMOVE_BOOK = 'book-store/books/REMOVEBOOK';
 
 export default function books(state = initialState, action = {}) {
   switch (action.type) {
-    case ADDBOOK:
+    case ADD_BOOK:
       return [...state, {
         id: action.id,
         title: action.title,
         author: action.author,
       }];
-    case REMOVEBOOK:
+    case REMOVE_BOOK:
       return state.map((book) => (action.id !== book.id));
     default:
       return state;
@@ -20,7 +20,7 @@ export default function books(state = initialState, action = {}) {
 
 export function AddBook(id, title, author) {
   return {
-    type: ADDBOOK,
+    type: ADD_BOOK,
     id,
     title,
     author,
@@ -29,7 +29,7 @@ export function AddBook(id, title, author) {
 
 export function RemoveBook(id) {
   return {
-    type: REMOVEBOOK,
+    type: REMOVE_BOOK,
     id,
   };
 }
