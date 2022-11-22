@@ -1,7 +1,7 @@
 const initialState = [];
 
-const ADDBOOK = 'ADDBOOK';
-const REMOVEBOOK = 'REMOVEBOOK';
+const ADDBOOK = 'book-store/books/ADDBOOK';
+const REMOVEBOOK = 'book-store/books/REMOVEBOOK';
 
 export default function books(state = initialState, action = {}) {
   switch (action.type) {

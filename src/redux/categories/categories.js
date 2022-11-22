@@ -1,6 +1,6 @@
 const initialState = [];
 
-const CHECKSTATUS = 'CHECKSTATUS';
+const CHECKSTATUS = 'book-store/categories/CHECKSTATUS';
 
 export default function CategoriesReducer(state = initialState, action = {}) {
   switch (action.type) {
