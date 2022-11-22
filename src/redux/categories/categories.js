@@ -1,10 +1,10 @@
 const initialState = [];
 
-const CHECKSTATUS = 'book-store/categories/CHECKSTATUS';
+const CHECK_STATUS = 'book-store/categories/CHECKSTATUS';
 
 export default function CategoriesReducer(state = initialState, action = {}) {
   switch (action.type) {
-    case CHECKSTATUS:
+    case CHECK_STATUS:
       return 'Under Building';
     default:
       return state;
@@ -13,6 +13,6 @@ export default function CategoriesReducer(state = initialState, action = {}) {
 
 export function CheckStatus() {
   return {
-    type: CHECKSTATUS,
+    type: CHECK_STATUS,
   };
 }
