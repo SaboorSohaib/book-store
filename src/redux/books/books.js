@@ -15,7 +15,6 @@ const initialState = [
     author: 'Abis',
   },
 ];
-console.log(initialState);
 const ADD_BOOK = 'book-store/redux/books/ADD_BOOK';
 const REMOVE_BOOK = 'book-store/redux/books/REMOVE_BOOK';
 

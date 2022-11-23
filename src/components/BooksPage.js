@@ -1,11 +1,11 @@
 import React from 'react';
-import AddBook from './AddBook';
+import Addbook from './AddBook';
 import BookList from './bookList';
 
 const BooksPage = () => (
   <div>
     <BookList />
-    <AddBook />
+    <Addbook />
   </div>
 );
 
