@@ -27,13 +27,13 @@ export default function books(state = initialState, action = {}) {
         author: action.author,
       }];
     case REMOVE_BOOK:
-      return state.map((book) => (action.id !== book.id));
+      return state.filter((book) => (book.id !== action.id));
     default:
       return state;
   }
 }
 
-export function AddBook(id, title, author) {
+export function AddBook({ id, title, author }) {
   return {
     type: ADD_BOOK,
     id,

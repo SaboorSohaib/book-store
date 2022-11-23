@@ -28,11 +28,11 @@ const Addbook = () => {
 
   return (
     <div className="form-div">
-      <form onSubmit={AddBookHandler}>
+      <form>
         <h3 className="new-book-title">Add New Book</h3>
         <input type="text" onChange={titleHandler} placeholder="Book Title" />
         <input type="text" onChange={authorHandler} placeholder="Author Name" />
-        <button type="button" className="book-btn">Add Book</button>
+        <button type="button" className="book-btn" onClick={AddBookHandler}>Add Book</button>
       </form>
     </div>
   );
