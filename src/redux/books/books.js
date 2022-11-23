@@ -1,6 +1,6 @@
 const initialState = [
   {
-    id:1,
+    id: 1,
     title: 'Advance React',
     author: 'Mosh',
   },
@@ -13,9 +13,9 @@ const initialState = [
     id: 3,
     title: 'Advance JS',
     author: 'Abis',
-  }
+  },
 ];
-
+console.log(initialState);
 const ADD_BOOK = 'book-store/redux/books/ADD_BOOK';
 const REMOVE_BOOK = 'book-store/redux/books/REMOVE_BOOK';
 
