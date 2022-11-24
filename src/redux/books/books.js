@@ -44,6 +44,7 @@ export function GetBooks(playload){
   };
 }
 
+// Getting Data From API
 const URL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/01GJMY4PJFJHMY62VZ9QNGC8N8/books';
 
 export const fetchBooksFromApi = () => async (dispatch) => {
