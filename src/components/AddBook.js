@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
-import { useDispatch } from 'react-redux';
-import { AddBook } from '../redux/books/books';
+import { useDispatch, useSelector } from 'react-redux';
+import { addbook } from '../redux/books/books';
 
-const Addbook = () => {
+const AddBook = () => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
 
+  const books = useSelector((state) => state.books.books);
   const dispatch = useDispatch();
 
   const AddBookHandler = (e) => {
     e.preventDefault();
     const book = {
-      id: uuidv4(),
+      id: books.length + 1,
       title,
       author,
     };
-    dispatch(AddBook(book));
+    dispatch(addbook(book));
     setTitle('');
     setAuthor('');
   };
@@ -38,4 +38,4 @@ const Addbook = () => {
   );
 };
 
-export default Addbook;
+export default AddBook;
