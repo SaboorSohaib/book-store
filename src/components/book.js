@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { RemoveBook } from '../redux/books/books';
+import { removebook } from '../redux/books/books';
 
 const Book = ({ id, title, author }) => {
-  // const { id, title, author } = props;
   const dispatch = useDispatch();
   const RemoveBookHandler = (id) => {
-    dispatch(RemoveBook(id));
+    dispatch(removebook(id));
   };
 
   return (
