@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removebook } from '../redux/books/books';
+import spinner from '../images/spinner.png';
 
 const Book = ({ id, title, author }) => {
   const dispatch = useDispatch();
@@ -23,9 +24,12 @@ const Book = ({ id, title, author }) => {
             <button type="button">Edit</button>
           </div>
         </div>
-        <div>
-          <p className="percentage">64%</p>
-          <p className="book-status">Completed</p>
+        <div className="progress-div">
+          <img src={spinner} alt="progres Bar" className="progres-bar" />
+          <div>
+            <p className="percentage">64%</p>
+            <p className="book-status">Completed</p>
+          </div>
         </div>
         <div className="last-div">
           <p className="current-chapter">CURRENT CHAPTER</p>
