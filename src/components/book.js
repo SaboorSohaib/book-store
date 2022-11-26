@@ -10,12 +10,29 @@ const Book = ({ id, title, author }) => {
   };
 
   return (
-    <div>
-      <h2>{ title }</h2>
-      <h3>{ author }</h3>
-      <button type="button">Comment</button>
-      <button type="button" onClick={() => RemoveBookHandler(id)}>Remove</button>
-      <button type="button">Edit</button>
+    <div className="single-book">
+      <div className="all-book-container">
+        <div className="book-container">
+          <h2 className="title">{ title }</h2>
+          <h3 className="author">{ author }</h3>
+          <div className="button-container">
+            <button type="button">Comment</button>
+            <span>|</span>
+            <button type="button" onClick={() => RemoveBookHandler(id)}>Remove</button>
+            <span>|</span>
+            <button type="button">Edit</button>
+          </div>
+        </div>
+        <div>
+          <p className="percentage">64%</p>
+          <p className="book-status">Completed</p>
+        </div>
+        <div className="last-div">
+          <p className="current-chapter">CURRENT CHAPTER</p>
+          <p className="chapter">Chapter 17</p>
+          <button type="button" className="progress-btn">UPDATE PROGRESS</button>
+        </div>
+      </div>
     </div>
   );
 };
