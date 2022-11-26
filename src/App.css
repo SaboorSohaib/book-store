@@ -75,7 +75,7 @@ input {
 .single-book {
   display: flex;
   margin: 30px;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .all-book-container {
@@ -147,7 +147,7 @@ span {
   font-size: 0.875rem;
   background-color: #0290ff;
   border-radius: 3px;
-  color: #ffffff;
+  color: white;
   padding: 10px;
   cursor: pointer;
   margin-top: 15px;
@@ -156,6 +156,6 @@ span {
 button {
   border: none;
   color: #4386bf;
-  background-color: #ffffff;
+  background-color: white;
   cursor: pointer;
 }
