@@ -71,6 +71,7 @@ input {
   color: rgb(245, 245, 245);
   border: none;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 .single-book {
