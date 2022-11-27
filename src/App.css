@@ -6,6 +6,7 @@
 
 body {
   height: 100vh;
+  background-color: #f5f6fa;
 }
 
 .navbar {
@@ -37,11 +38,12 @@ body {
 
 .status-btn {
   padding: 10px;
-  background-color: rgb(25, 173, 223);
+  background-color: #0290ff;
   border-radius: 10px;
   border: none;
   margin: 1rem auto;
   cursor: pointer;
+  color: white;
 }
 
 .form-div {
@@ -49,7 +51,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  height: 70vh;
 }
 
 .new-book-title {
@@ -65,8 +66,106 @@ input {
 .book-btn {
   padding: 7px;
   width: 150px;
-  background-color: rgb(25, 173, 223);
+  background-color: #0290ff;
   color: rgb(245, 245, 245);
   border: none;
+  cursor: pointer;
+}
+
+.single-book {
+  display: flex;
+  margin: 30px;
+  background-color: white;
+}
+
+.all-book-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 93%;
+  margin: auto;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.book-container {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.375rem;
+  color: #121212;
+}
+
+.author {
+  font-size: 0.875rem;
+  color: #4386bf;
+}
+
+span {
+  color: #e8e8e8;
+}
+
+.progress-div {
+  display: flex;
+  gap: 10px;
+}
+
+.progres-bar {
+  width: 50px;
+  height: 50px;
+}
+
+.percentage {
+  font-size: 2rem;
+  color: #121212;
+}
+
+.book-status {
+  font-size: 0.875rem;
+  color: #121212;
+}
+
+.last-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.current-chapter {
+  font-size: 0.813rem;
+  color: #121212;
+  font-weight: 300;
+}
+
+.chapter {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #121212;
+}
+
+.progress-btn {
+  border: none;
+  font-size: 0.875rem;
+  background-color: #0290ff;
+  border-radius: 3px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button {
+  border: none;
+  color: #4386bf;
+  background-color: white;
   cursor: pointer;
 }
