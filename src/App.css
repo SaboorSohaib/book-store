@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background-color: #f5f6fa;
+  background-color: #f7efef;
 }
 
 .navbar {
@@ -80,6 +80,7 @@ input {
   width: 1170px;
   background-color: white;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 .all-book-container {
