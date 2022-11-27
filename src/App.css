@@ -74,7 +74,8 @@ input {
 
 .single-book {
   display: flex;
-  margin: 30px;
+  margin: auto;
+  width: 1170px;
   background-color: white;
 }
 
