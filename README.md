@@ -36,25 +36,25 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Book Store <a name="about-project"></a>](#-book-store-)
-  - [🛠 Built With <a name="built-with"></a>](#-built-with-)
-    - [Tech Stack <a name="tech-stack"></a>](#tech-stack-)
-    - [Key Features <a name="key-features"></a>](#key-features-)
-  - [🚀 Live Demo <a name="live-demo"></a>](#-live-demo-)
-  - [💻 Getting Started <a name="getting-started"></a>](#-getting-started-)
+- [📖 Book Store ](#-book-store-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors <a name="authors"></a>](#-authors-)
-  - [🔭 Future Features <a name="future-features"></a>](#-future-features-)
-  - [🤝 Contributing <a name="contributing"></a>](#-contributing-)
-  - [⭐️ Show your support <a name="support"></a>](#️-show-your-support-)
-  - [🙏 Acknowledgments <a name="acknowledgements"></a>](#-acknowledgments-)
-  - [❓ FAQ <a name="faq"></a>](#-faq-)
-  - [📝 License <a name="license"></a>](#-license-)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -109,7 +109,7 @@ After you're finished please remove all the comments and instructions!
 
 > This Project is not dyployed yet.
 
-- [Live Demo Link](N/A)
+- [Live Demo Link](https://lucent-hummingbird-63b750.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
