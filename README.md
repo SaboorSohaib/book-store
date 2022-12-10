@@ -174,7 +174,7 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/SaboorSohaib)
 - Twitter: [@twitterhandle](https://twitter.com/absaboorsohaib)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib-b5b566244/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
