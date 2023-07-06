@@ -1,33 +1,9 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Book Store</b></h3>
 
 </div>
 
@@ -68,8 +44,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -95,11 +69,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> This Project has the following fetures.
-
 - **Add New Book**
 - **Remove Exisiting Book**
-- **Modify Exisiring Book**
+- **Modify Exisiting Book**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,17 +79,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> This Project is not dyployed yet.
-
-- [Live Demo Link](https://lucent-hummingbird-63b750.netlify.app)
+- [Live Demo Link](https://sohaib-book-store.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -150,11 +118,11 @@ Install this project with:
 
 To run the project, execute the following command:
 
-- npm start.
+- npm start
 
 ### Run tests
 
-- npm test.
+- npm test
 
 ### Deployment
 
@@ -168,13 +136,11 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Abdul Saboor Sohaib**
 
-- GitHub: [@githubhandle](https://github.com/SaboorSohaib)
-- Twitter: [@twitterhandle](https://twitter.com/absaboorsohaib)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-saboor-sohaib/)
+- GitHub: [![SaboorSohaib](https://img.shields.io/badge/-SaboorSohaib-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/SaboorSohaib)
+- Twitter: [![absaboorsohaib](https://img.shields.io/badge/-absaboorsohaib-blue?logo=Twitter&logoColor=skyBlue&style=plastic)](https://twitter.com/absaboorsohaib)
+- LinkedIn: [![abdul-saboor-sohaib](https://img.shields.io/badge/-AbdulSaboorSohaib-white?logo=LinkedIn&logoColor=181717&style=plastic)](https://www.linkedin.com/in/abdul-saboor-sohaib/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,11 +148,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- **Add New Book**
-- **Remove Exisiting Book**
-- **Modify Exisiring Book**
+- **Make it responsive**
+- **Add Category feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,8 +166,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
